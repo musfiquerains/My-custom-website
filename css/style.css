@@ -390,9 +390,7 @@ button {
   -o-transform: rotate(180deg);
 }
 
-.main_menu .toggle_icon:hover {
-  /* color: var(--colorWhite); */
-}
+
 
 .main_menu .droap_menu {
   position: absolute;
@@ -736,7 +734,7 @@ button {
 
 .tf__single_service span {
   display: block;
-  text-align: left;
+  
   margin: 0 auto;
   position: relative;
   top: -46px;
@@ -746,7 +744,7 @@ button {
 .tf__single_service h3 {
   font-size: 20px;
   font-weight: 500;
-  text-align: left;
+  text-align: center;
   margin-bottom: 20px;
   text-transform: uppercase;
   letter-spacing: 1px;
