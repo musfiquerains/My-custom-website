@@ -148,10 +148,15 @@
 =================================-->
 <section id="banner" class="tf__banner_2 banner">
   <div class="container">
-    <div class="row align-items-center justify-content-between">
+    <div class="row align-items-center">
 
-      <!-- LEFT COLUMN (TEXT) -->
-      <div class="col-12 col-md-6 col-lg-6">
+      <!-- IMAGE FIRST ON MOBILE, SECOND ON DESKTOP -->
+      <div class="col-12 col-md-6 order-1 order-md-2 text-center">
+        <img src="images/banner_img_1.png" class="img-fluid rounded" alt="">
+      </div>
+
+      <!-- TEXT SECOND ON MOBILE, FIRST ON DESKTOP -->
+      <div class="col-12 col-md-6 order-2 order-md-1">
         <div class="tf__banner_text">
           <h1>
             Hi, I'm Fahim & I am a
@@ -163,11 +168,9 @@
               </span>
             </span>
           </h1>
-
           <p>
             My dedication to user-centric design and attention to detail ensures visually stunning interfaces that enhance user experience.
           </p>
-
           <ul>
             <li>
               <a class="common_btn" href="#">
@@ -175,20 +178,11 @@
               </a>
             </li>
             <li>
-              <a
-                class="banner_video_btn play_btn"
-                href="https://www.youtube.com/watch?v=B-ytMSuwbf8">
+              <a class="banner_video_btn play_btn" href="#">
                 <i class="fa-sharp fa-solid fa-circle-play"></i> Watch the Video
               </a>
             </li>
           </ul>
-        </div>
-      </div>
-
-      <!-- RIGHT COLUMN (IMAGE) -->
-      <div class="col-12 col-md-6 col-lg-5">
-        <div class="banner_image_wrapper text-center text-md-end">
-          <img src="images/banner_img_1.png" alt="Banner Image" class="img-fluid rounded">
         </div>
       </div>
 
